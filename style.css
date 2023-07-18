@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    font-size: 20px;
+    line-height:1.8;
+    background-color: aqua;
+    font-family: sans-serif;
+}
+.content h1{
+    text-align: center;
+}
+@media (max-width:600px){
+    .content{
+        font-size: 12px;
+        line-height:1.8;
+        padding:0px 20px 0px 20px;
+        background-color:violet;
+        font-family: sans-serif;
+    }
+    .content h1{
+        text-align: center;
+        letter-spacing: 1.5;
+        word-spacing: 1.5px;
+        padding-top: 30px;
+    }
+    .content p{
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
+@media (min-width:600px){
+    .content{
+        font-size: 14px;
+        line-height:1.8;
+        padding:0px 20px 0px 20px;
+        background-color: coral;
+        font-family: sans-serif;
+    }
+    .content h1{
+        text-align: center;
+        letter-spacing: 1.5;
+        word-spacing: 1.5px;
+        padding-top: 30px;
+    }
+    .content p{
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
+@media (min-width:768px){
+    .content{
+        font-size: 16px;
+        line-height:1.8;
+        padding:0px 20px 0px 20px;
+        background-color:steelblue;
+        font-family: sans-serif;
+    }
+    .content h1{
+        text-align: center;
+        letter-spacing: 1.5;
+        word-spacing: 1.5px;
+        padding-top: 30px;
+    }
+    .content p{
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
+@media (min-width:992px){
+    .content{
+        font-size: 18px;
+        line-height:1.8;
+        padding:0px 20px 0px 20px;
+        background-color:rgb(241, 76, 76);
+        font-family: sans-serif;
+    }
+    .content h1{
+        text-align: center;
+        letter-spacing: 1.5;
+        word-spacing: 1.5px;
+        padding-top: 30px;
+    }
+    .content p{
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
+@media (min-width:1200px){
+    .content{
+        font-size: 20px;
+        line-height:1.8;
+        padding:0px 25px 0px 20px;
+        background-color:chartreuse;
+        font-family: sans-serif;
+    }
+    .content h1{
+        text-align: center;
+        letter-spacing: 1.5;
+        word-spacing: 1.5px;
+        padding-top: 30px;
+    }
+    .content p{
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
